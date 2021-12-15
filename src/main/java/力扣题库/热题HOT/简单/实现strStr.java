@@ -1,4 +1,4 @@
-package 力扣题库.热题HOT;
+package 力扣题库.热题HOT.简单;
 
 /**
  * @Description:
