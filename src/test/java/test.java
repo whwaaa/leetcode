@@ -9,26 +9,20 @@ import java.util.*;
 public class test {
 
     public static void main(String[] args) {
-        String str = "abcejkldffga";
-        char[] ch = str.toCharArray();
-        int len = ch.length;
+        String str = "gdasjyubml";
+        String ck = "dsjy";
+        String no = "djsy";
+        for(int i=0; i<str.length(); i++){
+            System.out.println(str.charAt(i));
 
-        Map<Character, Integer> map = new HashMap<>();
-        Set<Character> set = new HashSet<>();
-
-        for(Integer i=0; i<len; i++){
-            if(map.put(ch[i], i) != null){
-                set.add(ch[i]);
+            try {
+                while (true);
+            } catch (Exception e) {
+                e.printStackTrace();
             }
         }
-
-        for(int i=0; i<len; i++){
-            if(set.add(ch[i])){
-                System.out.println(i);
-                break;
-            }
-        }
-
+//        char c = str.charAt(10);
+//        System.out.println(c);
 
     }
 
