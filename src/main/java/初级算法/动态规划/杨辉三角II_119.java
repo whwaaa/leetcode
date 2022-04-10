@@ -22,7 +22,7 @@ public class 杨辉三角II_119 {
      * 	dp[i].set(0, 1)
      * 	dp[i].set(j, dp[i-1].get(j-1)+dp[i-1].get(j))
      * 	dp[i].set(i, 1);
-     * 3.确定出是条件和边界条件
+     * 3.确定初始条件和边界条件
      * 	dp[0].set(0, 1)
      */
     public List<Integer> getRow(int rowIndex) {
